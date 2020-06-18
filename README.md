@@ -1,6 +1,9 @@
 # lab07
 ### ¿En qué consiste el programa?
 
+### Videos
+
+Backtracking: https://youtu.be/MMEFM6ZQcIM
 
 -------------------------------------------------------------------------------------------------------------------
 ### ¿Cómo descargo el programa?
