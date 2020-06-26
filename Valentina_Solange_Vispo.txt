@@ -1,0 +1,41 @@
+					Laboratorio 7: "Knapsack"
+➢ Materia: Algoritmos y estructura de datos II
+➢ Fecha máxima de entrega: 25/06/2020 - 23:59:59
+➢ Alumna: Valentina Solange, Vispo
+➢ Comisión: Jueves
+➢ Link de entrega: https://forms.gle/zYMQDMdt8BdbNCCb6
+➢ Link de descarga: https://drive.google.com/file/d/1zQe6j_I9dn4zqrlSDD1bPqm7_WWDvlkB/view?usp=sharing
+➢ Material teórico: https://wiki.cs.famaf.unc.edu.ar/lib/exe/fetch.php?media=algo2:main:21.programacion_dinamica.pdf
+Backtracking> https://wiki.cs.famaf.unc.edu.ar/lib/exe/fetch.php?media=algo2:main:2020.10.backtracking.pdf
+Programación Dinámica> https://wiki.cs.famaf.unc.edu.ar/lib/exe/fetch.php?media=algo2:main:2020.11.programacion.dinamica.pdf
+---------------------------------------------------------------------------------------------------------------------
+			*** COMANDOS PARA CORRER  EL PROGRAMA CON MAKEFILE***
+
+make
+./knapsack -bdst -f input/example0.in
+
+		   *** COMANDOS PARA CORRER  EL PROGRAMA (MEMORY LEAKS CON MAKEFILE)***
+
+make
+valgrind ./knapsack -bdst -f input/example0.in
+
+---------------------------------------------------------------------------------------------------------------------
+					*** Comentarios ***
+
+➢ El segundo parámetro de los comandos se puede ser cambiado a conveniencia
+	Bactracking: -b
+	Dinámica​: -d
+	Dinámica mostrando selección de ​items​: -ds
+	Backtracking y Dinámica: -bd
+	Backtracking y Dinámica mostrando selección y verificando el valor obtenido: -bdst
+➢ make clean está en makefiles, elimina los ficheros creados (.o).
+➢ En el make file agregué más comandos como en el laboratorio 6 (make autor, make lab, make materia).
+➢ Intenté usar fmax con la librería <math.h> pero no me lo reconocía.
+➢ Adjunté todos los archivos modificados.
+➢ Probé todos los casos excepto el random-900.in con -bdst porque mi pc se satura (demora más de 30min y no pude dejarlo más tiempo).
+➢ Creé la función auxiliar static value_t funcion_max(value_t x, value_t y) en knapsack.c
+➢ Traté de borrar todos los comentarios del pseudocódigo.
+➢ Traté de dejar comentarios importantes, pero puedo haber dejado varios que no.
+
+				       *** Fin comentarios ***
+---------------------------------------------------------------------------------------------------------------------
